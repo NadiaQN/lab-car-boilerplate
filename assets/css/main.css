@@ -9,7 +9,7 @@
 }
 /*estilos section register*/
 .register{
-  background-image: url(../assets/images/taxi.jpg);
+  background-image: url(../images/taxi.jpg);
   background-size: cover;
   background-position: bottom;
   padding-top: 10%;
@@ -65,7 +65,7 @@
 }
 /* estilos seccion become a driver*/
 .become-driver{
-  background-image: url(../assets/images/conduce.jpg);
+  background-image: url(../images/conduce.jpg);
   background-position: center;
   background-size: cover;
   color: #FFFFFF;
