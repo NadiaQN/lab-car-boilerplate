@@ -1,1 +1,140 @@
 /* Los estilos de tu proyecto */
+/*corrigiendo margen en los row*/
+.margin-correct{
+  margin-right: 0;
+}
+/*estilos header*/
+.grow{
+  padding-bottom: 0.5%;
+}
+/*estilos section register*/
+.register{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.register-color{
+  background-color: #F7B617;
+  color: #FFFFFF;
+  padding: 1%;
+}
+.register-color h3, h4{
+  font-weight: bold;
+}
+.register-mobile{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.line-paragraph::after, .line-paragraph::before{
+  content: " ";
+  display: inline-block;
+  width: 6em;
+  height: 0.1em;
+  background-color: #FFFFFF;
+  margin: 1%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+/*estilos section download*/
+.download-app{
+  background-color: #F7B617;
+  padding: 1%;
+  padding-left: 0;
+  color: #FFFFFF;
+}
+.info-download{
+  border: 0.1em solid #FFFFFF;
+  border-left: 0;
+  width: 70em;
+}
+.iphone{
+  width: 20em;
+  margin: 10%;
+}
+.info-app{
+  line-height: 1.8em;
+  margin-top: 5%;
+}
+.info-app p{
+  margin-bottom: 7%;
+}
+.download-mobile{
+  margin-left: 10%;
+}
+/* estilos seccion become a driver*/
+.become-driver{
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+}
+.driver{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+/* estilos seccion map*/
+.map{
+  padding: 2%;
+}
+.map, .init, .destiny{
+  background-color: #F7B617;
+  color: #FFFFFF;
+}
+.init, .destiny{
+  border: 0.1em solid #FFFFFF;
+  border-radius: 0.5em;
+  margin-bottom: 5%;
+  width: 15em;
+  padding: 1%;
+}
+.init::placeholder, .destiny::placeholder{
+  color: #FFFFFF;
+}
+.init:focus, .destiny:focus{
+  outline: none;
+}
+.border-map{
+  padding: 1%;
+  border: 0.1em solid #FFFFFF;
+}
+.text{
+  margin-top: 5%;
+}
+.margin-btn{
+  margin-bottom: 10%;
+}
+/*estilos footer*/
+footer{
+  background-color: #2B2B2B;
+  padding: 5%;
+  color: #FFFFFF;
+}
+.underline{
+  padding: 1%;
+  border-bottom: 0.1em solid #FFFFFF
+}
+.icons a{
+  color: #FFFFFF;
+}
+.icons{
+  margin-top: 30%;
+}
+.social{
+  list-style: none;
+  margin-top: 10%;
+}
+.social li{
+  margin: 10%;
+}
+.stores{
+  margin-top: 20%;
+}
+.stores img{
+  margin-bottom: 5%;
+}
+.copyrigth{
+  margin-top: 1%;
+}

@@ -1,1 +1,207 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Lab-car</title>
+<!-- Link bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- mi hoja de estilos media -->
+  <link rel="stylesheet" href="css/media.css">
+<!-- mi hoja de estilos -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div class="row margin-correct">
+      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars" aria-hidden="true"></i> <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Viaja</a></li>
+            <li><a href="#">Conduce</a></li>
+            <li><a href="#">Inicia sesión</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-12">
+        <nav class="navbar grow">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><img src="assets/images/logoForma.png" alt="lab-car logo"></a>
+            </div>
+              <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                <li><a href="#travel">Viaja</a></li>
+                <li><a href="#driver">Conduce</a></li>
+                <li><a href="#">Inicia sesión</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+<!-- section register -->
+  <section class="register text-left container-fluid margin-correct">
+    <div class="content-register">
+      <div class="row">
+        <div class="col-xs-8 col-col-md-4 col-lg-4 hidden-xs hidden-md register-color col-lg-offset-8">
+          <h3>Disfruta del viaje</h3>
+          <h3>Eres dueño de tu tiempo</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-4 register-color col-lg-offset-8 hidden-xs hidden-sm">
+        <h4>Viaja con <img src="assets/images/logoBlanco.png" alt=""></h4>
+        <button class="btn btn-default" type="submit">Registrate</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-4 register-color col-md-offset-8 col-lg-offset-8 hidden-xs hidden-sm">
+            <p class="line-paragraph">O bien</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-4 register-color col-lg-offset-8 hidden-xs hidden-md">
+          <button class="btn btn-default" type="submit">Conviértete en un conductor</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="register-mobile register-color hidden-md hidden-lg col-xs-8 col-sm-8 col-xs-offset-4 col-sm-offset-4">
+          <h2>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt=""></h2>
+          <button type="button" class="btn btn-default">Descarga el app</button>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- section descarga la app -->
+  <section class="download-app">
+    <div class="info-download">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg download-mobile">
+          <h2>La nueva app</h2>
+          <img src="assets/images/iPhone6Plus.png" alt="">
+        </div>
+      </div>
+      <div class="row margin-correct">
+        <div class="col-md-5 col-lg-5 hidden-xs hidden-sm ">
+          <img class="iphone" src="assets/images/iPhone6Plus.png" alt="iphone-6-plus">
+        </div>
+        <div class="col-md-4 col-lg-4 info-app hidden-xs hidden-sm info-app">
+          <h4>Descarga la nueva app</h4>
+          <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+          <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+        <h4>Llega a tu destino aún más rápido</h4>
+      </div>
+    </div>
+  </section>
+<!-- section conviertete en conductor -->
+  <section id="driver" class="container-fluid become-driver margin-correct">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-8 col-lg-offset-8 driver">
+        <h4>Conduce cuando quieras</h4>
+        <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+        <button type="button" class="btn btn-warning">Conviertete en conductor</button>
+      </div>
+    </div>
+  </section>
+<!-- section map -->
+  <section id="travel" class="map">
+    <div class="row margin-correct">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-lg-offset-2 text">
+        <h2>Tarifas</h2>
+        <p>Consulta las tarifas LabCar aquí</p>
+        <img src="assets/images/shape.png" alt="">
+        <input class="init" type="text" placeholder=" Ingresa su punto de partida">
+        <br>
+        <img src="assets/images/shape2.png" alt="">
+        <input class="destiny" type="text" placeholder=" Ingrese su destino">
+        <br>
+        <button type="button" class="btn btn-default margin-btn">¡TRAZAR RUTA!</button>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <iframe class="border-map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d62665744.053745806!2d-71.95788402499997!3d-16.535511468106826!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512495835197" width="450" height="450" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+<!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row margin-correct">
+        <div class="col-md-12 col-lg-12 underline">
+          <img src="assets/images/logoBlanco.png" alt="">
+        </div>
+      </div>
+      <div class="row underline margin-correct">
+        <div class="col-xs-6 col-sm-6 hidden-md hidden-lg">
+          <ul class="social">
+            <li>Viaja</li>
+            <li>Conduce</li>
+            <li>Ciudades</li>
+            <li>Ciudades</li>
+            <li>Entregas</li>
+            <li>Cómo funciona?</li>
+            <li>Países</li>
+            <li>Seguridad</li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 icons">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-md-3 col-lg-3 hidden-xs hidden-sm">
+          <ul class="social">
+            <li>Viaja</li>
+            <li>Conduce</li>
+            <li>Ciudades</li>
+            <li>Ciudades</li>
+            <li>Entregas</li>
+            <li>Cómo funciona?</li>
+            <li>Países</li>
+            <li>Seguridad</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-lg-3 hidden-xs hidden-sm">
+          <ul class="social">
+            <li>Oportunidades</li>
+            <li>Nuestra historia</li>
+            <li>API de LabCar</li>
+            <li>Eventos</li>
+            <li>Desarrolladores</li>
+            <li>Servicios</li>
+            <li>Laboratoria</li>
+            <li>Coders</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-lg-3 stores">
+          <img src="assets/images/appstore.png" alt="">
+          <img src="assets/images/enBadgeWebGeneric.png" alt="">
+        </div>
+      </div>
+      <div class="row margin-correct">
+        <div class="col-md-12 col-lg-12 copyrigth">
+          <p>&#169; 2017 LabCar technologies inc.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- script icons -->
+  <script type="text/javascript" src="https://use.fontawesome.com/7873633050.js"></script>
+<!-- script jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- script bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- mi archivo js -->
+  <script src="js/app.js"></script>
+</body>
+</html>
