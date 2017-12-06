@@ -138,3 +138,13 @@ footer{
 .copyrigth{
   margin-top: 1%;
 }
+/*estilo modal iniciar sesion*/
+.user{
+  width: 20em;
+  margin-bottom: 3%;
+  margin-left: 25%;
+}
+.forgot{
+  text-decoration: none;
+  color: #B40404;
+}
